@@ -3,6 +3,7 @@
 
  programs = {
    home-manager.enable = true;
+   obs-studio.enable = true;
    kitty = {
      enable = true;
      theme = "Catppuccin-Mocha";
