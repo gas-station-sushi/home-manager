@@ -22,7 +22,8 @@ gtk = {
     flavor = "mocha";};
      };
     };
-home.packages = with pkgs; [
+home = {
+  packages = with pkgs; [
     (catppuccin-kde.override {
      flavour = ["mocha"];
      accents = ["maroon"];})
@@ -30,4 +31,9 @@ home.packages = with pkgs; [
      flavor = "mocha";
      accent = "maroon";})
      ];
+  pointerCursor = {
+    gtk.enable  = true;
+    x11.enable = true;
+  };
+ };
 }
