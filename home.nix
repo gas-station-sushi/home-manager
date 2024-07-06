@@ -18,6 +18,9 @@ home.packages = with pkgs; [
     fastfetch
     rustc
     cargo
+    thunderbird
+    p7zip
+    vesktop
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
