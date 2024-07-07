@@ -21,6 +21,7 @@ home.packages = with pkgs; [
     thunderbird
     p7zip
     vesktop
+    handbrake
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
