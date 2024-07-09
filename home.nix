@@ -22,6 +22,7 @@ home.packages = with pkgs; [
     p7zip
     vesktop
     handbrake
+    arrpc
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
