@@ -21,11 +21,12 @@
     enable = true;
     enableCompletion = true;
     shellAliases = {
-      getchvim = "sudo nix run github:getchoo/getchvim";
-      homeswitch = "home-manager switch";
-      nixswitch = "sudo nixos-rebuild switch";
-      homebuild = "home-manager build";
-      nixbuild = "sudo nixos-rebuild switch";};
+      gvim = "sudo nix run github:getchoo/getchvim";
+      homes = "home-manager switch";
+      nixs = "sudo nixos-rebuild switch";
+      homeb = "home-manager build";
+      nixb = "sudo nixos-rebuild switch";
+			nixu = "sudo nixos-rebuild upgrade";};
   };
   git = {
      enable = true;
